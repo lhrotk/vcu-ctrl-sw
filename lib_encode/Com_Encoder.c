@@ -723,6 +723,20 @@ bool AL_Common_Encoder_SetFrameRate(AL_TEncoder* pEnc, uint16_t uFrameRate, uint
   return true;
 }
 
+/****************************************************************************/
+bool AL_Common_Encoder_SetSliceQP(AL_TEncoder* pEnc, int16_t sliceQP)
+{
+  AL_TEncCtx* pCtx = pEnc->pCtx;
+
+  for(int i = 0; i < pCtx->Settings.NumLayer; ++i)
+  {
+    pCtx->Settings.tChParam[i].tRCParam.iInitialQP = sliceQP;
+    setNewParams(pCtx, i);
+  }
+
+  return true;
+}
+
 
 static bool isSeiEnable(uint32_t uFlags)
 {

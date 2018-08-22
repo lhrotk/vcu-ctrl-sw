@@ -1,0 +1,8 @@
+bin/exe_encoder/MD5.cpp.o: exe_encoder/MD5.cpp include/config.h \
+ exe_encoder/MD5.h include/lib_rtos/types.h
+
+include/config.h:
+
+exe_encoder/MD5.h:
+
+include/lib_rtos/types.h:

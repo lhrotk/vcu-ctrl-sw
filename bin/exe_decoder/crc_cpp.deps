@@ -1,0 +1,11 @@
+bin/exe_decoder/crc.cpp.o: exe_decoder/crc.cpp include/config.h \
+ exe_decoder/crc.h include/lib_common/SliceConsts.h \
+ include/lib_rtos/types.h
+
+include/config.h:
+
+exe_decoder/crc.h:
+
+include/lib_common/SliceConsts.h:
+
+include/lib_rtos/types.h:

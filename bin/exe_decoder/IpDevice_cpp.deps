@@ -1,0 +1,35 @@
+bin/exe_decoder/IpDevice.cpp.o: exe_decoder/IpDevice.cpp include/config.h \
+ exe_decoder/IpDevice.h exe_decoder/CodecUtils.h lib_app/console.h \
+ lib_app/utils.h lib_common_dec/DecChanParam.h include/lib_rtos/types.h \
+ include/lib_common/SliceConsts.h include/lib_common_dec/DecSynchro.h \
+ include/lib_fpga/DmaAlloc.h include/lib_common/Allocator.h \
+ include/lib_perfs/Logger.h include/lib_rtos/lib_rtos.h \
+ include/lib_common/HardwareDriver.h
+
+include/config.h:
+
+exe_decoder/IpDevice.h:
+
+exe_decoder/CodecUtils.h:
+
+lib_app/console.h:
+
+lib_app/utils.h:
+
+lib_common_dec/DecChanParam.h:
+
+include/lib_rtos/types.h:
+
+include/lib_common/SliceConsts.h:
+
+include/lib_common_dec/DecSynchro.h:
+
+include/lib_fpga/DmaAlloc.h:
+
+include/lib_common/Allocator.h:
+
+include/lib_perfs/Logger.h:
+
+include/lib_rtos/lib_rtos.h:
+
+include/lib_common/HardwareDriver.h:

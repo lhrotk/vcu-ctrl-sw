@@ -1,0 +1,8 @@
+bin/lib_app/utils.cpp.o: lib_app/utils.cpp include/config.h \
+ lib_app/utils.h lib_app/console.h
+
+include/config.h:
+
+lib_app/utils.h:
+
+lib_app/console.h:

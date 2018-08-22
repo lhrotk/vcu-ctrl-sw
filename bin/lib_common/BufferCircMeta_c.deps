@@ -1,0 +1,13 @@
+bin/lib_common/BufferCircMeta.c.o: lib_common/BufferCircMeta.c \
+ include/config.h include/lib_rtos/lib_rtos.h include/lib_rtos/types.h \
+ lib_common/BufferCircMeta.h include/lib_common/BufferMeta.h
+
+include/config.h:
+
+include/lib_rtos/lib_rtos.h:
+
+include/lib_rtos/types.h:
+
+lib_common/BufferCircMeta.h:
+
+include/lib_common/BufferMeta.h:

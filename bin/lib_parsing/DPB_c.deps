@@ -1,0 +1,57 @@
+bin/lib_parsing/DPB.c.o: lib_parsing/DPB.c include/config.h \
+ lib_parsing/DPB.h include/lib_rtos/types.h include/lib_rtos/lib_rtos.h \
+ include/lib_common/SliceConsts.h lib_common/SliceHeader.h \
+ lib_common/SPS.h lib_common/ScalingList.h \
+ lib_common/common_syntax_elements.h lib_common/BufCommonInternal.h \
+ include/lib_common/BufCommon.h include/lib_common/MemDesc.h \
+ include/lib_common/Allocator.h include/lib_common/FourCC.h \
+ include/lib_common/OffsetYC.h lib_common/VPS.h lib_common/PPS.h \
+ lib_common/Utils.h lib_common_dec/DecBuffers.h \
+ include/lib_common/BufferAPI.h include/lib_common/BufferMeta.h \
+ lib_common_dec/DecPicParam.h include/lib_common_dec/DecDpbMode.h
+
+include/config.h:
+
+lib_parsing/DPB.h:
+
+include/lib_rtos/types.h:
+
+include/lib_rtos/lib_rtos.h:
+
+include/lib_common/SliceConsts.h:
+
+lib_common/SliceHeader.h:
+
+lib_common/SPS.h:
+
+lib_common/ScalingList.h:
+
+lib_common/common_syntax_elements.h:
+
+lib_common/BufCommonInternal.h:
+
+include/lib_common/BufCommon.h:
+
+include/lib_common/MemDesc.h:
+
+include/lib_common/Allocator.h:
+
+include/lib_common/FourCC.h:
+
+include/lib_common/OffsetYC.h:
+
+lib_common/VPS.h:
+
+lib_common/PPS.h:
+
+lib_common/Utils.h:
+
+lib_common_dec/DecBuffers.h:
+
+include/lib_common/BufferAPI.h:
+
+include/lib_common/BufferMeta.h:
+
+lib_common_dec/DecPicParam.h:
+
+include/lib_common_dec/DecDpbMode.h:

@@ -246,6 +246,8 @@ bool AL_Encoder_SetBitRate(AL_HEncoder hEnc, int iBitRate);
 *****************************************************************************/
 bool AL_Encoder_SetFrameRate(AL_HEncoder hEnc, uint16_t uFrameRate, uint16_t uClkRatio);
 
+bool AL_Encoder_SetSliceQP(AL_HEncoder hEnc, int16_t sliceQP);
+
 
 
 #ifdef __cplusplus

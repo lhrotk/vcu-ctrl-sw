@@ -1,0 +1,23 @@
+bin/lib_common/BufferSrcMeta.c.o: lib_common/BufferSrcMeta.c \
+ include/config.h include/lib_rtos/lib_rtos.h include/lib_rtos/types.h \
+ include/lib_common/BufferSrcMeta.h include/lib_common/BufferMeta.h \
+ include/lib_common/FourCC.h include/lib_common/SliceConsts.h \
+ include/lib_common/OffsetYC.h include/lib_common/Pitches.h
+
+include/config.h:
+
+include/lib_rtos/lib_rtos.h:
+
+include/lib_rtos/types.h:
+
+include/lib_common/BufferSrcMeta.h:
+
+include/lib_common/BufferMeta.h:
+
+include/lib_common/FourCC.h:
+
+include/lib_common/SliceConsts.h:
+
+include/lib_common/OffsetYC.h:
+
+include/lib_common/Pitches.h:

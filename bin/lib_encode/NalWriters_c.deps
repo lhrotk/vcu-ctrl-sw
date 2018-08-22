@@ -1,0 +1,70 @@
+bin/lib_encode/NalWriters.c.o: lib_encode/NalWriters.c include/config.h \
+ lib_encode/NalWriters.h lib_bitstream/IRbspWriter.h \
+ lib_bitstream/BitStreamLite.h include/lib_rtos/types.h lib_common/SPS.h \
+ lib_common/ScalingList.h lib_common/common_syntax_elements.h \
+ lib_common/BufCommonInternal.h include/lib_common/BufCommon.h \
+ include/lib_common/MemDesc.h include/lib_common/Allocator.h \
+ include/lib_common/FourCC.h include/lib_common/SliceConsts.h \
+ include/lib_common/OffsetYC.h lib_common/VPS.h lib_common/PPS.h \
+ lib_encode/IP_Stream.h include/lib_common/BufferStreamMeta.h \
+ include/lib_common/BufferMeta.h include/lib_common/StreamSection.h \
+ lib_common_enc/EncPicInfo.h include/lib_common/Error.h \
+ include/lib_common_enc/EncChanParam.h include/lib_common/VideoMode.h \
+ include/lib_common/BufferAPI.h include/lib_rtos/lib_rtos.h \
+ lib_bitstream/RbspEncod.h
+
+include/config.h:
+
+lib_encode/NalWriters.h:
+
+lib_bitstream/IRbspWriter.h:
+
+lib_bitstream/BitStreamLite.h:
+
+include/lib_rtos/types.h:
+
+lib_common/SPS.h:
+
+lib_common/ScalingList.h:
+
+lib_common/common_syntax_elements.h:
+
+lib_common/BufCommonInternal.h:
+
+include/lib_common/BufCommon.h:
+
+include/lib_common/MemDesc.h:
+
+include/lib_common/Allocator.h:
+
+include/lib_common/FourCC.h:
+
+include/lib_common/SliceConsts.h:
+
+include/lib_common/OffsetYC.h:
+
+lib_common/VPS.h:
+
+lib_common/PPS.h:
+
+lib_encode/IP_Stream.h:
+
+include/lib_common/BufferStreamMeta.h:
+
+include/lib_common/BufferMeta.h:
+
+include/lib_common/StreamSection.h:
+
+lib_common_enc/EncPicInfo.h:
+
+include/lib_common/Error.h:
+
+include/lib_common_enc/EncChanParam.h:
+
+include/lib_common/VideoMode.h:
+
+include/lib_common/BufferAPI.h:
+
+include/lib_rtos/lib_rtos.h:
+
+lib_bitstream/RbspEncod.h:

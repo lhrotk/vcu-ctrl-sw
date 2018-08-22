@@ -1,0 +1,13 @@
+bin/lib_common_enc/IpEncFourCC.c.o: lib_common_enc/IpEncFourCC.c \
+ include/config.h include/lib_common/FourCC.h include/lib_rtos/types.h \
+ include/lib_common/SliceConsts.h include/lib_common_enc/IpEncFourCC.h
+
+include/config.h:
+
+include/lib_common/FourCC.h:
+
+include/lib_rtos/types.h:
+
+include/lib_common/SliceConsts.h:
+
+include/lib_common_enc/IpEncFourCC.h:

@@ -1,0 +1,16 @@
+bin/lib_fpga/DmaAllocLinux.c.o: lib_fpga/DmaAllocLinux.c include/config.h \
+ include/lib_fpga/DmaAllocLinux.h include/lib_common/Allocator.h \
+ include/lib_rtos/types.h extra/include/allegro_ioctl_reg.h \
+ lib_fpga/DevicePool.h
+
+include/config.h:
+
+include/lib_fpga/DmaAllocLinux.h:
+
+include/lib_common/Allocator.h:
+
+include/lib_rtos/types.h:
+
+extra/include/allegro_ioctl_reg.h:
+
+lib_fpga/DevicePool.h:

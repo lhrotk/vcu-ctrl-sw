@@ -1,0 +1,126 @@
+bin/lib_decode/FrameParam.c.o: lib_decode/FrameParam.c include/config.h \
+ lib_common/Utils.h include/lib_rtos/types.h \
+ include/lib_common/SliceConsts.h include/lib_common/BufCommon.h \
+ include/lib_common/MemDesc.h include/lib_common/Allocator.h \
+ include/lib_common/FourCC.h include/lib_common/OffsetYC.h \
+ lib_common_dec/DecSliceParam.h lib_common_dec/DecBuffers.h \
+ lib_common/BufCommonInternal.h include/lib_common/BufferAPI.h \
+ include/lib_rtos/lib_rtos.h include/lib_common/BufferMeta.h \
+ lib_common_dec/DecChanParam.h include/lib_common_dec/DecSynchro.h \
+ lib_decode/DefaultDecoder.h include/lib_decode/lib_decode.h \
+ include/lib_common/Error.h include/lib_common_dec/DecInfo.h \
+ include/lib_common/VideoMode.h include/lib_common_dec/DecDpbMode.h \
+ lib_decode/I_DecoderCtx.h lib_common_dec/StartCodeParam.h \
+ lib_parsing/I_PictMngr.h lib_common/SliceHeader.h lib_common/SPS.h \
+ lib_common/ScalingList.h lib_common/common_syntax_elements.h \
+ lib_common/VPS.h lib_common/PPS.h lib_parsing/DPB.h \
+ lib_common_dec/DecPicParam.h lib_parsing/Concealment.h \
+ lib_decode/NalUnitParser.h lib_parsing/AvcParser.h lib_common/SEI.h \
+ lib_common_dec/RbspParser.h lib_parsing/common_syntax.h \
+ lib_parsing/Aup.h lib_parsing/HevcParser.h lib_decode/I_DecChannel.h \
+ lib_decode/BufferFeeder.h lib_common/Fifo.h lib_decode/Patchworker.h \
+ lib_common/BufferCircMeta.h lib_decode/DecoderFeeder.h \
+ lib_decode/I_Decoder.h lib_decode/InternalError.h \
+ lib_decode/FrameParam.h
+
+include/config.h:
+
+lib_common/Utils.h:
+
+include/lib_rtos/types.h:
+
+include/lib_common/SliceConsts.h:
+
+include/lib_common/BufCommon.h:
+
+include/lib_common/MemDesc.h:
+
+include/lib_common/Allocator.h:
+
+include/lib_common/FourCC.h:
+
+include/lib_common/OffsetYC.h:
+
+lib_common_dec/DecSliceParam.h:
+
+lib_common_dec/DecBuffers.h:
+
+lib_common/BufCommonInternal.h:
+
+include/lib_common/BufferAPI.h:
+
+include/lib_rtos/lib_rtos.h:
+
+include/lib_common/BufferMeta.h:
+
+lib_common_dec/DecChanParam.h:
+
+include/lib_common_dec/DecSynchro.h:
+
+lib_decode/DefaultDecoder.h:
+
+include/lib_decode/lib_decode.h:
+
+include/lib_common/Error.h:
+
+include/lib_common_dec/DecInfo.h:
+
+include/lib_common/VideoMode.h:
+
+include/lib_common_dec/DecDpbMode.h:
+
+lib_decode/I_DecoderCtx.h:
+
+lib_common_dec/StartCodeParam.h:
+
+lib_parsing/I_PictMngr.h:
+
+lib_common/SliceHeader.h:
+
+lib_common/SPS.h:
+
+lib_common/ScalingList.h:
+
+lib_common/common_syntax_elements.h:
+
+lib_common/VPS.h:
+
+lib_common/PPS.h:
+
+lib_parsing/DPB.h:
+
+lib_common_dec/DecPicParam.h:
+
+lib_parsing/Concealment.h:
+
+lib_decode/NalUnitParser.h:
+
+lib_parsing/AvcParser.h:
+
+lib_common/SEI.h:
+
+lib_common_dec/RbspParser.h:
+
+lib_parsing/common_syntax.h:
+
+lib_parsing/Aup.h:
+
+lib_parsing/HevcParser.h:
+
+lib_decode/I_DecChannel.h:
+
+lib_decode/BufferFeeder.h:
+
+lib_common/Fifo.h:
+
+lib_decode/Patchworker.h:
+
+lib_common/BufferCircMeta.h:
+
+lib_decode/DecoderFeeder.h:
+
+lib_decode/I_Decoder.h:
+
+lib_decode/InternalError.h:
+
+lib_decode/FrameParam.h:

@@ -1,0 +1,6 @@
+bin/exe_encoder/FileUtils.cpp.o: exe_encoder/FileUtils.cpp \
+ include/config.h exe_encoder/FileUtils.h
+
+include/config.h:
+
+exe_encoder/FileUtils.h:

@@ -1,0 +1,50 @@
+bin/lib_bitstream/HEVC_RbspEncod.c.o: lib_bitstream/HEVC_RbspEncod.c \
+ include/config.h lib_bitstream/HEVC_RbspEncod.h \
+ lib_bitstream/IRbspWriter.h lib_bitstream/BitStreamLite.h \
+ include/lib_rtos/types.h lib_common/SPS.h lib_common/ScalingList.h \
+ lib_common/common_syntax_elements.h lib_common/BufCommonInternal.h \
+ include/lib_common/BufCommon.h include/lib_common/MemDesc.h \
+ include/lib_common/Allocator.h include/lib_common/FourCC.h \
+ include/lib_common/SliceConsts.h include/lib_common/OffsetYC.h \
+ lib_common/VPS.h lib_common/PPS.h lib_bitstream/RbspEncod.h \
+ lib_common/SliceHeader.h lib_common/Utils.h
+
+include/config.h:
+
+lib_bitstream/HEVC_RbspEncod.h:
+
+lib_bitstream/IRbspWriter.h:
+
+lib_bitstream/BitStreamLite.h:
+
+include/lib_rtos/types.h:
+
+lib_common/SPS.h:
+
+lib_common/ScalingList.h:
+
+lib_common/common_syntax_elements.h:
+
+lib_common/BufCommonInternal.h:
+
+include/lib_common/BufCommon.h:
+
+include/lib_common/MemDesc.h:
+
+include/lib_common/Allocator.h:
+
+include/lib_common/FourCC.h:
+
+include/lib_common/SliceConsts.h:
+
+include/lib_common/OffsetYC.h:
+
+lib_common/VPS.h:
+
+lib_common/PPS.h:
+
+lib_bitstream/RbspEncod.h:
+
+lib_common/SliceHeader.h:
+
+lib_common/Utils.h:

@@ -1,0 +1,14 @@
+bin/lib_common_dec/IpDecFourCC.c.o: lib_common_dec/IpDecFourCC.c \
+ include/config.h include/lib_common_dec/IpDecFourCC.h \
+ include/lib_common/FourCC.h include/lib_rtos/types.h \
+ include/lib_common/SliceConsts.h
+
+include/config.h:
+
+include/lib_common_dec/IpDecFourCC.h:
+
+include/lib_common/FourCC.h:
+
+include/lib_rtos/types.h:
+
+include/lib_common/SliceConsts.h:

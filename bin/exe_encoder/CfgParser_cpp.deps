@@ -1,0 +1,28 @@
+bin/exe_encoder/CfgParser.cpp.o: exe_encoder/CfgParser.cpp \
+ include/config.h exe_encoder/CfgParser.h lib_app/InputFiles.h \
+ include/lib_common/FourCC.h include/lib_rtos/types.h \
+ include/lib_common/SliceConsts.h lib_app/utils.h lib_app/console.h \
+ include/lib_common_enc/Settings.h include/lib_common_enc/EncChanParam.h \
+ include/lib_common/VideoMode.h
+
+include/config.h:
+
+exe_encoder/CfgParser.h:
+
+lib_app/InputFiles.h:
+
+include/lib_common/FourCC.h:
+
+include/lib_rtos/types.h:
+
+include/lib_common/SliceConsts.h:
+
+lib_app/utils.h:
+
+lib_app/console.h:
+
+include/lib_common_enc/Settings.h:
+
+include/lib_common_enc/EncChanParam.h:
+
+include/lib_common/VideoMode.h:

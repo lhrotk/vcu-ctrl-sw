@@ -1,0 +1,63 @@
+bin/lib_decode/DecoderFeeder.c.o: lib_decode/DecoderFeeder.c \
+ include/config.h include/lib_rtos/lib_rtos.h include/lib_rtos/types.h \
+ lib_decode/DecoderFeeder.h include/lib_common/BufferAPI.h \
+ include/lib_common/BufferMeta.h include/lib_common/Allocator.h \
+ lib_common/Fifo.h include/lib_decode/lib_decode.h \
+ include/lib_common/Error.h include/lib_common/FourCC.h \
+ include/lib_common/SliceConsts.h include/lib_common_dec/DecInfo.h \
+ include/lib_common/VideoMode.h include/lib_common_dec/DecDpbMode.h \
+ include/lib_common_dec/DecSynchro.h lib_decode/Patchworker.h \
+ lib_common/BufferCircMeta.h lib_common_dec/DecBuffers.h \
+ lib_common/BufCommonInternal.h include/lib_common/BufCommon.h \
+ include/lib_common/MemDesc.h include/lib_common/OffsetYC.h \
+ lib_common/Utils.h lib_decode/InternalError.h
+
+include/config.h:
+
+include/lib_rtos/lib_rtos.h:
+
+include/lib_rtos/types.h:
+
+lib_decode/DecoderFeeder.h:
+
+include/lib_common/BufferAPI.h:
+
+include/lib_common/BufferMeta.h:
+
+include/lib_common/Allocator.h:
+
+lib_common/Fifo.h:
+
+include/lib_decode/lib_decode.h:
+
+include/lib_common/Error.h:
+
+include/lib_common/FourCC.h:
+
+include/lib_common/SliceConsts.h:
+
+include/lib_common_dec/DecInfo.h:
+
+include/lib_common/VideoMode.h:
+
+include/lib_common_dec/DecDpbMode.h:
+
+include/lib_common_dec/DecSynchro.h:
+
+lib_decode/Patchworker.h:
+
+lib_common/BufferCircMeta.h:
+
+lib_common_dec/DecBuffers.h:
+
+lib_common/BufCommonInternal.h:
+
+include/lib_common/BufCommon.h:
+
+include/lib_common/MemDesc.h:
+
+include/lib_common/OffsetYC.h:
+
+lib_common/Utils.h:
+
+lib_decode/InternalError.h:

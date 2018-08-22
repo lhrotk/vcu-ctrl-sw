@@ -1,0 +1,43 @@
+bin/exe_encoder/QPGenerator.cpp.o: exe_encoder/QPGenerator.cpp \
+ include/config.h include/lib_rtos/lib_rtos.h include/lib_rtos/types.h \
+ include/lib_common_enc/EncBuffers.h include/lib_common/versions.h \
+ include/lib_common/SliceConsts.h include/lib_common/BufCommon.h \
+ include/lib_common/MemDesc.h include/lib_common/Allocator.h \
+ include/lib_common/FourCC.h include/lib_common/OffsetYC.h \
+ include/lib_common_enc/EncChanParam.h include/lib_common/VideoMode.h \
+ exe_encoder/QPGenerator.h include/lib_common_enc/Settings.h \
+ exe_encoder/ROIMngr.h exe_encoder/FileUtils.h
+
+include/config.h:
+
+include/lib_rtos/lib_rtos.h:
+
+include/lib_rtos/types.h:
+
+include/lib_common_enc/EncBuffers.h:
+
+include/lib_common/versions.h:
+
+include/lib_common/SliceConsts.h:
+
+include/lib_common/BufCommon.h:
+
+include/lib_common/MemDesc.h:
+
+include/lib_common/Allocator.h:
+
+include/lib_common/FourCC.h:
+
+include/lib_common/OffsetYC.h:
+
+include/lib_common_enc/EncChanParam.h:
+
+include/lib_common/VideoMode.h:
+
+exe_encoder/QPGenerator.h:
+
+include/lib_common_enc/Settings.h:
+
+exe_encoder/ROIMngr.h:
+
+exe_encoder/FileUtils.h:

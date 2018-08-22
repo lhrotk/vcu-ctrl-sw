@@ -1,0 +1,31 @@
+bin/lib_common/HwScalingList.c.o: lib_common/HwScalingList.c \
+ include/config.h lib_common/common_syntax_elements.h \
+ lib_common/ScalingList.h include/lib_rtos/types.h \
+ lib_common/BufCommonInternal.h include/lib_common/BufCommon.h \
+ include/lib_common/MemDesc.h include/lib_common/Allocator.h \
+ include/lib_common/FourCC.h include/lib_common/SliceConsts.h \
+ include/lib_common/OffsetYC.h lib_common/HwScalingList.h
+
+include/config.h:
+
+lib_common/common_syntax_elements.h:
+
+lib_common/ScalingList.h:
+
+include/lib_rtos/types.h:
+
+lib_common/BufCommonInternal.h:
+
+include/lib_common/BufCommon.h:
+
+include/lib_common/MemDesc.h:
+
+include/lib_common/Allocator.h:
+
+include/lib_common/FourCC.h:
+
+include/lib_common/SliceConsts.h:
+
+include/lib_common/OffsetYC.h:
+
+lib_common/HwScalingList.h:

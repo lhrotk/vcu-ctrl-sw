@@ -204,4 +204,11 @@ bool AL_Encoder_SetFrameRate(AL_HEncoder hEnc, uint16_t uFrameRate, uint16_t uCl
   return AL_Common_Encoder_SetFrameRate(pEnc, uFrameRate, uClkRatio);
 }
 
+/****************************************************************************/
+bool AL_Encoder_SetSliceQP(AL_HEncoder hEnc, int16_t sliceQP)
+{
+  AL_TEncoder* pEnc = (AL_TEncoder*)hEnc;
+  return AL_Common_Encoder_SetSliceQP(pEnc, sliceQP);
+}
+
 

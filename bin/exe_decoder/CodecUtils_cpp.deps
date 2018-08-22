@@ -1,0 +1,13 @@
+bin/exe_decoder/CodecUtils.cpp.o: exe_decoder/CodecUtils.cpp \
+ include/config.h exe_decoder/CodecUtils.h lib_app/console.h \
+ exe_decoder/al_resource.h lib_app/utils.h
+
+include/config.h:
+
+exe_decoder/CodecUtils.h:
+
+lib_app/console.h:
+
+exe_decoder/al_resource.h:
+
+lib_app/utils.h:

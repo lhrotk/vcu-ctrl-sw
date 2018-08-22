@@ -1,0 +1,31 @@
+bin/exe_decoder/Conversion.cpp.o: exe_decoder/Conversion.cpp \
+ include/config.h include/lib_common/BufferSrcMeta.h \
+ include/lib_common/BufferMeta.h include/lib_rtos/types.h \
+ include/lib_common/FourCC.h include/lib_common/SliceConsts.h \
+ include/lib_common/OffsetYC.h include/lib_common/Pitches.h \
+ exe_decoder/Conversion.h include/lib_common/BufferAPI.h \
+ include/lib_rtos/lib_rtos.h include/lib_common/Allocator.h
+
+include/config.h:
+
+include/lib_common/BufferSrcMeta.h:
+
+include/lib_common/BufferMeta.h:
+
+include/lib_rtos/types.h:
+
+include/lib_common/FourCC.h:
+
+include/lib_common/SliceConsts.h:
+
+include/lib_common/OffsetYC.h:
+
+include/lib_common/Pitches.h:
+
+exe_decoder/Conversion.h:
+
+include/lib_common/BufferAPI.h:
+
+include/lib_rtos/lib_rtos.h:
+
+include/lib_common/Allocator.h:

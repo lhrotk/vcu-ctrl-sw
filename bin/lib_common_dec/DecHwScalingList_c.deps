@@ -1,0 +1,12 @@
+bin/lib_common_dec/DecHwScalingList.c.o: \
+ lib_common_dec/DecHwScalingList.c include/config.h \
+ lib_common_dec/DecHwScalingList.h include/lib_rtos/types.h \
+ lib_common/ScalingList.h
+
+include/config.h:
+
+lib_common_dec/DecHwScalingList.h:
+
+include/lib_rtos/types.h:
+
+lib_common/ScalingList.h:

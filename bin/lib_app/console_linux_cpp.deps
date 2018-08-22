@@ -1,0 +1,6 @@
+bin/lib_app/console_linux.cpp.o: lib_app/console_linux.cpp \
+ include/config.h lib_app/console.h
+
+include/config.h:
+
+lib_app/console.h:

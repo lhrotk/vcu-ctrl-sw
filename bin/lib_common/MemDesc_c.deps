@@ -1,0 +1,11 @@
+bin/lib_common/MemDesc.c.o: lib_common/MemDesc.c include/config.h \
+ include/lib_common/MemDesc.h include/lib_rtos/types.h \
+ include/lib_common/Allocator.h
+
+include/config.h:
+
+include/lib_common/MemDesc.h:
+
+include/lib_rtos/types.h:
+
+include/lib_common/Allocator.h:

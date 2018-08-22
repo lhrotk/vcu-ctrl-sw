@@ -1,0 +1,136 @@
+bin/lib_encode/AVC_Encoder.c.o: lib_encode/AVC_Encoder.c include/config.h \
+ lib_encode/Com_Encoder.h include/lib_rtos/lib_rtos.h \
+ include/lib_rtos/types.h lib_common/SEI.h \
+ lib_common/common_syntax_elements.h lib_common/ScalingList.h \
+ lib_common/BufCommonInternal.h include/lib_common/BufCommon.h \
+ include/lib_common/MemDesc.h include/lib_common/Allocator.h \
+ include/lib_common/FourCC.h include/lib_common/SliceConsts.h \
+ include/lib_common/OffsetYC.h lib_common_enc/EncBuffersInternal.h \
+ include/lib_common_enc/EncBuffers.h include/lib_common/versions.h \
+ include/lib_common_enc/EncChanParam.h include/lib_common/VideoMode.h \
+ lib_common_enc/EncEPBuffer.h lib_common_enc/ChooseLda.h \
+ lib_encode/Encoder.h include/lib_common_enc/EncRecBuffer.h \
+ include/lib_common_enc/Settings.h lib_encode/IP_EncoderCtx.h \
+ lib_encode/Sections.h include/lib_common/BufferStreamMeta.h \
+ include/lib_common/BufferMeta.h include/lib_common/StreamSection.h \
+ lib_encode/IP_Stream.h lib_bitstream/BitStreamLite.h \
+ lib_bitstream/IRbspWriter.h lib_common/SPS.h lib_common/VPS.h \
+ lib_common/PPS.h lib_common_enc/EncPicInfo.h include/lib_common/Error.h \
+ include/lib_common/BufferAPI.h include/lib_encode/lib_encoder.h \
+ lib_bitstream/lib_bitstream.h lib_bitstream/HEVC_RbspEncod.h \
+ lib_bitstream/HEVC_SkippedPict.h lib_bitstream/SkippedPicture.h \
+ lib_bitstream/AVC_RbspEncod.h lib_bitstream/AVC_SkippedPict.h \
+ lib_encode/SourceBufferChecker.h lib_common_enc/PictureInfo.h \
+ lib_common_enc/EncSliceStatus.h lib_common_enc/EncSliceBuffer.h \
+ lib_common_enc/EncSize.h lib_common/Fifo.h lib_encode/IP_Utils.h \
+ lib_encode/IScheduler.h lib_encode/AVC_Sections.h lib_common/Utils.h
+
+include/config.h:
+
+lib_encode/Com_Encoder.h:
+
+include/lib_rtos/lib_rtos.h:
+
+include/lib_rtos/types.h:
+
+lib_common/SEI.h:
+
+lib_common/common_syntax_elements.h:
+
+lib_common/ScalingList.h:
+
+lib_common/BufCommonInternal.h:
+
+include/lib_common/BufCommon.h:
+
+include/lib_common/MemDesc.h:
+
+include/lib_common/Allocator.h:
+
+include/lib_common/FourCC.h:
+
+include/lib_common/SliceConsts.h:
+
+include/lib_common/OffsetYC.h:
+
+lib_common_enc/EncBuffersInternal.h:
+
+include/lib_common_enc/EncBuffers.h:
+
+include/lib_common/versions.h:
+
+include/lib_common_enc/EncChanParam.h:
+
+include/lib_common/VideoMode.h:
+
+lib_common_enc/EncEPBuffer.h:
+
+lib_common_enc/ChooseLda.h:
+
+lib_encode/Encoder.h:
+
+include/lib_common_enc/EncRecBuffer.h:
+
+include/lib_common_enc/Settings.h:
+
+lib_encode/IP_EncoderCtx.h:
+
+lib_encode/Sections.h:
+
+include/lib_common/BufferStreamMeta.h:
+
+include/lib_common/BufferMeta.h:
+
+include/lib_common/StreamSection.h:
+
+lib_encode/IP_Stream.h:
+
+lib_bitstream/BitStreamLite.h:
+
+lib_bitstream/IRbspWriter.h:
+
+lib_common/SPS.h:
+
+lib_common/VPS.h:
+
+lib_common/PPS.h:
+
+lib_common_enc/EncPicInfo.h:
+
+include/lib_common/Error.h:
+
+include/lib_common/BufferAPI.h:
+
+include/lib_encode/lib_encoder.h:
+
+lib_bitstream/lib_bitstream.h:
+
+lib_bitstream/HEVC_RbspEncod.h:
+
+lib_bitstream/HEVC_SkippedPict.h:
+
+lib_bitstream/SkippedPicture.h:
+
+lib_bitstream/AVC_RbspEncod.h:
+
+lib_bitstream/AVC_SkippedPict.h:
+
+lib_encode/SourceBufferChecker.h:
+
+lib_common_enc/PictureInfo.h:
+
+lib_common_enc/EncSliceStatus.h:
+
+lib_common_enc/EncSliceBuffer.h:
+
+lib_common_enc/EncSize.h:
+
+lib_common/Fifo.h:
+
+lib_encode/IP_Utils.h:
+
+lib_encode/IScheduler.h:
+
+lib_encode/AVC_Sections.h:
+
+lib_common/Utils.h:

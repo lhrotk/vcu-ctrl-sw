@@ -1,0 +1,10 @@
+bin/lib_common/Fifo.c.o: lib_common/Fifo.c include/config.h \
+ lib_common/Fifo.h include/lib_rtos/lib_rtos.h include/lib_rtos/types.h
+
+include/config.h:
+
+lib_common/Fifo.h:
+
+include/lib_rtos/lib_rtos.h:
+
+include/lib_rtos/types.h:

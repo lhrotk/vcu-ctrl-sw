@@ -1,0 +1,8 @@
+bin/lib_bitstream/BitStreamLite.c.o: lib_bitstream/BitStreamLite.c \
+ include/config.h lib_bitstream/BitStreamLite.h include/lib_rtos/types.h
+
+include/config.h:
+
+lib_bitstream/BitStreamLite.h:
+
+include/lib_rtos/types.h:

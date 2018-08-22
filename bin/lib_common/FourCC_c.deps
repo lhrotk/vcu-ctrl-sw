@@ -1,0 +1,11 @@
+bin/lib_common/FourCC.c.o: lib_common/FourCC.c include/config.h \
+ include/lib_common/FourCC.h include/lib_rtos/types.h \
+ include/lib_common/SliceConsts.h
+
+include/config.h:
+
+include/lib_common/FourCC.h:
+
+include/lib_rtos/types.h:
+
+include/lib_common/SliceConsts.h:

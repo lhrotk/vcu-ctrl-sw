@@ -1,0 +1,46 @@
+bin/exe_encoder/container.cpp.o: exe_encoder/container.cpp \
+ include/config.h lib_app/InputFiles.h include/lib_common/FourCC.h \
+ include/lib_rtos/types.h include/lib_common/SliceConsts.h \
+ include/lib_encode/lib_encoder.h include/lib_common/BufferAPI.h \
+ include/lib_rtos/lib_rtos.h include/lib_common/BufferMeta.h \
+ include/lib_common/Allocator.h include/lib_common/Error.h \
+ include/lib_common_enc/Settings.h include/lib_common_enc/EncChanParam.h \
+ include/lib_common/VideoMode.h include/lib_common_enc/EncRecBuffer.h \
+ include/lib_common/BufCommon.h include/lib_common/MemDesc.h \
+ include/lib_common/OffsetYC.h
+
+include/config.h:
+
+lib_app/InputFiles.h:
+
+include/lib_common/FourCC.h:
+
+include/lib_rtos/types.h:
+
+include/lib_common/SliceConsts.h:
+
+include/lib_encode/lib_encoder.h:
+
+include/lib_common/BufferAPI.h:
+
+include/lib_rtos/lib_rtos.h:
+
+include/lib_common/BufferMeta.h:
+
+include/lib_common/Allocator.h:
+
+include/lib_common/Error.h:
+
+include/lib_common_enc/Settings.h:
+
+include/lib_common_enc/EncChanParam.h:
+
+include/lib_common/VideoMode.h:
+
+include/lib_common_enc/EncRecBuffer.h:
+
+include/lib_common/BufCommon.h:
+
+include/lib_common/MemDesc.h:
+
+include/lib_common/OffsetYC.h:

@@ -1,0 +1,56 @@
+bin/lib_common_enc/EncBuffers.c.o: lib_common_enc/EncBuffers.c \
+ include/config.h lib_common/Utils.h include/lib_rtos/types.h \
+ include/lib_common/SliceConsts.h include/lib_common/BufCommon.h \
+ include/lib_common/MemDesc.h include/lib_common/Allocator.h \
+ include/lib_common/FourCC.h include/lib_common/OffsetYC.h \
+ include/lib_common/StreamBuffer.h lib_common/StreamBufferPrivate.h \
+ include/lib_common_enc/EncBuffers.h include/lib_rtos/lib_rtos.h \
+ include/lib_common/versions.h include/lib_common_enc/EncChanParam.h \
+ include/lib_common/VideoMode.h include/lib_common_enc/IpEncFourCC.h \
+ lib_common_enc/EncSize.h lib_common_enc/EncBuffersInternal.h \
+ lib_common/BufCommonInternal.h lib_common_enc/EncEPBuffer.h \
+ lib_common_enc/ChooseLda.h
+
+include/config.h:
+
+lib_common/Utils.h:
+
+include/lib_rtos/types.h:
+
+include/lib_common/SliceConsts.h:
+
+include/lib_common/BufCommon.h:
+
+include/lib_common/MemDesc.h:
+
+include/lib_common/Allocator.h:
+
+include/lib_common/FourCC.h:
+
+include/lib_common/OffsetYC.h:
+
+include/lib_common/StreamBuffer.h:
+
+lib_common/StreamBufferPrivate.h:
+
+include/lib_common_enc/EncBuffers.h:
+
+include/lib_rtos/lib_rtos.h:
+
+include/lib_common/versions.h:
+
+include/lib_common_enc/EncChanParam.h:
+
+include/lib_common/VideoMode.h:
+
+include/lib_common_enc/IpEncFourCC.h:
+
+lib_common_enc/EncSize.h:
+
+lib_common_enc/EncBuffersInternal.h:
+
+lib_common/BufCommonInternal.h:
+
+lib_common_enc/EncEPBuffer.h:
+
+lib_common_enc/ChooseLda.h:

@@ -1,0 +1,29 @@
+bin/lib_app/BufferMetaFactory.c.o: lib_app/BufferMetaFactory.c \
+ include/config.h lib_app/BufferMetaFactory.h \
+ include/lib_common/BufferMeta.h include/lib_rtos/types.h \
+ include/lib_common/BufferSrcMeta.h include/lib_common/FourCC.h \
+ include/lib_common/SliceConsts.h include/lib_common/OffsetYC.h \
+ include/lib_common/Pitches.h include/lib_common/BufferStreamMeta.h \
+ include/lib_common/StreamSection.h
+
+include/config.h:
+
+lib_app/BufferMetaFactory.h:
+
+include/lib_common/BufferMeta.h:
+
+include/lib_rtos/types.h:
+
+include/lib_common/BufferSrcMeta.h:
+
+include/lib_common/FourCC.h:
+
+include/lib_common/SliceConsts.h:
+
+include/lib_common/OffsetYC.h:
+
+include/lib_common/Pitches.h:
+
+include/lib_common/BufferStreamMeta.h:
+
+include/lib_common/StreamSection.h:

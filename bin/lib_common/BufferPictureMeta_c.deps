@@ -1,0 +1,16 @@
+bin/lib_common/BufferPictureMeta.c.o: lib_common/BufferPictureMeta.c \
+ include/config.h include/lib_common/BufferPictureMeta.h \
+ include/lib_common/BufferMeta.h include/lib_rtos/types.h \
+ include/lib_common/SliceConsts.h include/lib_rtos/lib_rtos.h
+
+include/config.h:
+
+include/lib_common/BufferPictureMeta.h:
+
+include/lib_common/BufferMeta.h:
+
+include/lib_rtos/types.h:
+
+include/lib_common/SliceConsts.h:
+
+include/lib_rtos/lib_rtos.h:

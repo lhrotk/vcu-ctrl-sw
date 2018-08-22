@@ -1,0 +1,6 @@
+bin/lib_common/AvcLevelsLimit.c.o: lib_common/AvcLevelsLimit.c \
+ include/config.h lib_common/AvcLevelsLimit.h
+
+include/config.h:
+
+lib_common/AvcLevelsLimit.h:

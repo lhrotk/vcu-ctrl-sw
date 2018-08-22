@@ -1,0 +1,8 @@
+bin/lib_rtos/lib_rtos.c.o: lib_rtos/lib_rtos.c include/config.h \
+ include/lib_rtos/lib_rtos.h include/lib_rtos/types.h
+
+include/config.h:
+
+include/lib_rtos/lib_rtos.h:
+
+include/lib_rtos/types.h:

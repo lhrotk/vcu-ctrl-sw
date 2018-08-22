@@ -1,0 +1,11 @@
+bin/lib_bitstream/RbspEncod.c.o: lib_bitstream/RbspEncod.c \
+ include/config.h lib_bitstream/RbspEncod.h lib_bitstream/BitStreamLite.h \
+ include/lib_rtos/types.h
+
+include/config.h:
+
+lib_bitstream/RbspEncod.h:
+
+lib_bitstream/BitStreamLite.h:
+
+include/lib_rtos/types.h:

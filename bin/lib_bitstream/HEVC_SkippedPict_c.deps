@@ -1,0 +1,26 @@
+bin/lib_bitstream/HEVC_SkippedPict.c.o: lib_bitstream/HEVC_SkippedPict.c \
+ include/config.h lib_bitstream/HEVC_SkippedPict.h \
+ include/lib_rtos/types.h lib_bitstream/SkippedPicture.h \
+ lib_bitstream/BitStreamLite.h include/lib_common_enc/Settings.h \
+ include/lib_common/SliceConsts.h include/lib_common/FourCC.h \
+ include/lib_common_enc/EncChanParam.h include/lib_common/VideoMode.h
+
+include/config.h:
+
+lib_bitstream/HEVC_SkippedPict.h:
+
+include/lib_rtos/types.h:
+
+lib_bitstream/SkippedPicture.h:
+
+lib_bitstream/BitStreamLite.h:
+
+include/lib_common_enc/Settings.h:
+
+include/lib_common/SliceConsts.h:
+
+include/lib_common/FourCC.h:
+
+include/lib_common_enc/EncChanParam.h:
+
+include/lib_common/VideoMode.h:

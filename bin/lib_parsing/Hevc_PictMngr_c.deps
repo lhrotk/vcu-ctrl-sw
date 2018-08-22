@@ -1,0 +1,74 @@
+bin/lib_parsing/Hevc_PictMngr.c.o: lib_parsing/Hevc_PictMngr.c \
+ include/config.h lib_parsing/Hevc_PictMngr.h lib_parsing/I_PictMngr.h \
+ include/lib_common/BufferAPI.h include/lib_rtos/types.h \
+ include/lib_rtos/lib_rtos.h include/lib_common/BufferMeta.h \
+ include/lib_common/Allocator.h lib_common/SliceHeader.h lib_common/SPS.h \
+ lib_common/ScalingList.h lib_common/common_syntax_elements.h \
+ lib_common/BufCommonInternal.h include/lib_common/BufCommon.h \
+ include/lib_common/MemDesc.h include/lib_common/FourCC.h \
+ include/lib_common/SliceConsts.h include/lib_common/OffsetYC.h \
+ lib_common/VPS.h lib_common/PPS.h lib_common_dec/DecBuffers.h \
+ lib_common_dec/DecSliceParam.h include/lib_common_dec/DecInfo.h \
+ include/lib_common/VideoMode.h include/lib_common_dec/DecDpbMode.h \
+ lib_parsing/DPB.h lib_common/Utils.h lib_common_dec/DecPicParam.h \
+ include/lib_common/BufferSrcMeta.h include/lib_common/Pitches.h
+
+include/config.h:
+
+lib_parsing/Hevc_PictMngr.h:
+
+lib_parsing/I_PictMngr.h:
+
+include/lib_common/BufferAPI.h:
+
+include/lib_rtos/types.h:
+
+include/lib_rtos/lib_rtos.h:
+
+include/lib_common/BufferMeta.h:
+
+include/lib_common/Allocator.h:
+
+lib_common/SliceHeader.h:
+
+lib_common/SPS.h:
+
+lib_common/ScalingList.h:
+
+lib_common/common_syntax_elements.h:
+
+lib_common/BufCommonInternal.h:
+
+include/lib_common/BufCommon.h:
+
+include/lib_common/MemDesc.h:
+
+include/lib_common/FourCC.h:
+
+include/lib_common/SliceConsts.h:
+
+include/lib_common/OffsetYC.h:
+
+lib_common/VPS.h:
+
+lib_common/PPS.h:
+
+lib_common_dec/DecBuffers.h:
+
+lib_common_dec/DecSliceParam.h:
+
+include/lib_common_dec/DecInfo.h:
+
+include/lib_common/VideoMode.h:
+
+include/lib_common_dec/DecDpbMode.h:
+
+lib_parsing/DPB.h:
+
+lib_common/Utils.h:
+
+lib_common_dec/DecPicParam.h:
+
+include/lib_common/BufferSrcMeta.h:
+
+include/lib_common/Pitches.h:

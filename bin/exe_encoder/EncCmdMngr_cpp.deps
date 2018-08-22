@@ -1,0 +1,8 @@
+bin/exe_encoder/EncCmdMngr.cpp.o: exe_encoder/EncCmdMngr.cpp \
+ include/config.h exe_encoder/EncCmdMngr.h exe_encoder/ICommandsSender.h
+
+include/config.h:
+
+exe_encoder/EncCmdMngr.h:
+
+exe_encoder/ICommandsSender.h:

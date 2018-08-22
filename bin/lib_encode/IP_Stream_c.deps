@@ -1,0 +1,23 @@
+bin/lib_encode/IP_Stream.c.o: lib_encode/IP_Stream.c include/config.h \
+ include/lib_rtos/lib_rtos.h include/lib_rtos/types.h \
+ lib_encode/IP_Stream.h lib_bitstream/BitStreamLite.h \
+ include/lib_common/BufferStreamMeta.h include/lib_common/BufferMeta.h \
+ include/lib_common/StreamSection.h include/lib_common/SliceConsts.h
+
+include/config.h:
+
+include/lib_rtos/lib_rtos.h:
+
+include/lib_rtos/types.h:
+
+lib_encode/IP_Stream.h:
+
+lib_bitstream/BitStreamLite.h:
+
+include/lib_common/BufferStreamMeta.h:
+
+include/lib_common/BufferMeta.h:
+
+include/lib_common/StreamSection.h:
+
+include/lib_common/SliceConsts.h:

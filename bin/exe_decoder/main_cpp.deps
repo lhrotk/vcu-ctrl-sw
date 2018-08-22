@@ -1,0 +1,91 @@
+bin/exe_decoder/main.cpp.o: exe_decoder/main.cpp include/config.h \
+ include/lib_common/BufferSrcMeta.h include/lib_common/BufferMeta.h \
+ include/lib_rtos/types.h include/lib_common/FourCC.h \
+ include/lib_common/SliceConsts.h include/lib_common/OffsetYC.h \
+ include/lib_common/Pitches.h include/lib_decode/lib_decode.h \
+ include/lib_common/BufferAPI.h include/lib_rtos/lib_rtos.h \
+ include/lib_common/Allocator.h include/lib_common/Error.h \
+ include/lib_common_dec/DecInfo.h include/lib_common/VideoMode.h \
+ include/lib_common_dec/DecDpbMode.h include/lib_common_dec/DecSynchro.h \
+ lib_common_dec/DecBuffers.h lib_common/BufCommonInternal.h \
+ include/lib_common/BufCommon.h include/lib_common/MemDesc.h \
+ include/lib_common_dec/IpDecFourCC.h include/lib_common/StreamBuffer.h \
+ lib_common/Utils.h lib_app/BufPool.h lib_app/console.h lib_app/convert.h \
+ lib_app/timing.h lib_app/utils.h lib_app/CommandLineParser.h \
+ lib_app/FileIOUtils.h exe_decoder/Conversion.h exe_decoder/al_resource.h \
+ exe_decoder/IpDevice.h exe_decoder/CodecUtils.h \
+ lib_common_dec/DecChanParam.h exe_decoder/crc.h
+
+include/config.h:
+
+include/lib_common/BufferSrcMeta.h:
+
+include/lib_common/BufferMeta.h:
+
+include/lib_rtos/types.h:
+
+include/lib_common/FourCC.h:
+
+include/lib_common/SliceConsts.h:
+
+include/lib_common/OffsetYC.h:
+
+include/lib_common/Pitches.h:
+
+include/lib_decode/lib_decode.h:
+
+include/lib_common/BufferAPI.h:
+
+include/lib_rtos/lib_rtos.h:
+
+include/lib_common/Allocator.h:
+
+include/lib_common/Error.h:
+
+include/lib_common_dec/DecInfo.h:
+
+include/lib_common/VideoMode.h:
+
+include/lib_common_dec/DecDpbMode.h:
+
+include/lib_common_dec/DecSynchro.h:
+
+lib_common_dec/DecBuffers.h:
+
+lib_common/BufCommonInternal.h:
+
+include/lib_common/BufCommon.h:
+
+include/lib_common/MemDesc.h:
+
+include/lib_common_dec/IpDecFourCC.h:
+
+include/lib_common/StreamBuffer.h:
+
+lib_common/Utils.h:
+
+lib_app/BufPool.h:
+
+lib_app/console.h:
+
+lib_app/convert.h:
+
+lib_app/timing.h:
+
+lib_app/utils.h:
+
+lib_app/CommandLineParser.h:
+
+lib_app/FileIOUtils.h:
+
+exe_decoder/Conversion.h:
+
+exe_decoder/al_resource.h:
+
+exe_decoder/IpDevice.h:
+
+exe_decoder/CodecUtils.h:
+
+lib_common_dec/DecChanParam.h:
+
+exe_decoder/crc.h:

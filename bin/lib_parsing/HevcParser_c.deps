@@ -1,0 +1,54 @@
+bin/lib_parsing/HevcParser.c.o: lib_parsing/HevcParser.c include/config.h \
+ lib_parsing/HevcParser.h lib_common/PPS.h include/lib_rtos/types.h \
+ lib_common/common_syntax_elements.h lib_common/ScalingList.h \
+ lib_common/BufCommonInternal.h include/lib_common/BufCommon.h \
+ include/lib_common/MemDesc.h include/lib_common/Allocator.h \
+ include/lib_common/FourCC.h include/lib_common/SliceConsts.h \
+ include/lib_common/OffsetYC.h lib_common/SPS.h lib_common/VPS.h \
+ lib_common/SEI.h lib_common_dec/RbspParser.h lib_parsing/Concealment.h \
+ lib_parsing/common_syntax.h lib_parsing/Aup.h \
+ include/lib_rtos/lib_rtos.h lib_common/Utils.h
+
+include/config.h:
+
+lib_parsing/HevcParser.h:
+
+lib_common/PPS.h:
+
+include/lib_rtos/types.h:
+
+lib_common/common_syntax_elements.h:
+
+lib_common/ScalingList.h:
+
+lib_common/BufCommonInternal.h:
+
+include/lib_common/BufCommon.h:
+
+include/lib_common/MemDesc.h:
+
+include/lib_common/Allocator.h:
+
+include/lib_common/FourCC.h:
+
+include/lib_common/SliceConsts.h:
+
+include/lib_common/OffsetYC.h:
+
+lib_common/SPS.h:
+
+lib_common/VPS.h:
+
+lib_common/SEI.h:
+
+lib_common_dec/RbspParser.h:
+
+lib_parsing/Concealment.h:
+
+lib_parsing/common_syntax.h:
+
+lib_parsing/Aup.h:
+
+include/lib_rtos/lib_rtos.h:
+
+lib_common/Utils.h:

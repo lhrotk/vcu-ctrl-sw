@@ -222,6 +222,26 @@ struct EncoderSink : IFrameSink
     if(m_picCount == 0)
       m_StartTime = GetPerfTime();
 
+    ifstream qpFile;
+    qpFile.open("qp.read");
+    string QP;
+    int QP_val;
+	int i = 0;
+    for(i=0; i<=m_picCount; i++){
+    	qpFile >> QP;
+    }
+
+    const char* QP_norm = QP.c_str();
+    QP_val = 10*(QP_norm[0] - '0') + QP_norm[1]-'0';
+    if(QP_norm[3]>='5')
+    	QP_val++;
+
+    qpFile.close();
+
+    cout << QP_val <<endl;
+
+    AL_Encoder_SetSliceQP(hEnc, QP_val);
+
     if(Src)
       DisplayFrameStatus(m_picCount);
     else

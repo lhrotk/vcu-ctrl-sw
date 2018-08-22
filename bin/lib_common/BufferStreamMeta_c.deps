@@ -1,0 +1,16 @@
+bin/lib_common/BufferStreamMeta.c.o: lib_common/BufferStreamMeta.c \
+ include/config.h include/lib_common/BufferStreamMeta.h \
+ include/lib_common/BufferMeta.h include/lib_rtos/types.h \
+ include/lib_common/StreamSection.h include/lib_rtos/lib_rtos.h
+
+include/config.h:
+
+include/lib_common/BufferStreamMeta.h:
+
+include/lib_common/BufferMeta.h:
+
+include/lib_rtos/types.h:
+
+include/lib_common/StreamSection.h:
+
+include/lib_rtos/lib_rtos.h:

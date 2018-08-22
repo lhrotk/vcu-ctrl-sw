@@ -1,0 +1,128 @@
+bin/exe_encoder/main.cpp.o: exe_encoder/main.cpp include/config.h \
+ lib_app/BufPool.h include/lib_rtos/types.h include/lib_rtos/lib_rtos.h \
+ include/lib_common/Allocator.h include/lib_common/BufferAPI.h \
+ include/lib_common/BufferMeta.h lib_app/console.h lib_app/utils.h \
+ exe_encoder/CodecUtils.h lib_app/InputFiles.h \
+ include/lib_common/FourCC.h include/lib_common/SliceConsts.h \
+ include/lib_common_enc/EncBuffers.h include/lib_common/versions.h \
+ include/lib_common/BufCommon.h include/lib_common/MemDesc.h \
+ include/lib_common/OffsetYC.h include/lib_common_enc/EncChanParam.h \
+ include/lib_common/VideoMode.h exe_encoder/sink.h exe_encoder/IpDevice.h \
+ include/lib_common_enc/Settings.h include/lib_encode/lib_encoder.h \
+ include/lib_common/Error.h include/lib_common_enc/EncRecBuffer.h \
+ exe_encoder/resource.h exe_encoder/CfgParser.h \
+ include/lib_common/BufferSrcMeta.h include/lib_common/Pitches.h \
+ include/lib_common/BufferStreamMeta.h include/lib_common/StreamSection.h \
+ include/lib_common/BufferPictureMeta.h include/lib_common/StreamBuffer.h \
+ lib_common/Utils.h include/lib_common_enc/IpEncFourCC.h \
+ lib_conv_yuv/lib_conv_yuv.h lib_conv_yuv/ConvSrc.h \
+ lib_conv_yuv/AL_NvxConvert.h exe_encoder/sink_encoder.h lib_app/timing.h \
+ exe_encoder/QPGenerator.h exe_encoder/ROIMngr.h exe_encoder/EncCmdMngr.h \
+ exe_encoder/ICommandsSender.h exe_encoder/CommandsSender.h \
+ exe_encoder/FileUtils.h exe_encoder/sink_bitstream_writer.h \
+ exe_encoder/sink_frame_writer.h exe_encoder/sink_md5.h \
+ exe_encoder/sink_repeater.h lib_app/CommandLineParser.h
+
+include/config.h:
+
+lib_app/BufPool.h:
+
+include/lib_rtos/types.h:
+
+include/lib_rtos/lib_rtos.h:
+
+include/lib_common/Allocator.h:
+
+include/lib_common/BufferAPI.h:
+
+include/lib_common/BufferMeta.h:
+
+lib_app/console.h:
+
+lib_app/utils.h:
+
+exe_encoder/CodecUtils.h:
+
+lib_app/InputFiles.h:
+
+include/lib_common/FourCC.h:
+
+include/lib_common/SliceConsts.h:
+
+include/lib_common_enc/EncBuffers.h:
+
+include/lib_common/versions.h:
+
+include/lib_common/BufCommon.h:
+
+include/lib_common/MemDesc.h:
+
+include/lib_common/OffsetYC.h:
+
+include/lib_common_enc/EncChanParam.h:
+
+include/lib_common/VideoMode.h:
+
+exe_encoder/sink.h:
+
+exe_encoder/IpDevice.h:
+
+include/lib_common_enc/Settings.h:
+
+include/lib_encode/lib_encoder.h:
+
+include/lib_common/Error.h:
+
+include/lib_common_enc/EncRecBuffer.h:
+
+exe_encoder/resource.h:
+
+exe_encoder/CfgParser.h:
+
+include/lib_common/BufferSrcMeta.h:
+
+include/lib_common/Pitches.h:
+
+include/lib_common/BufferStreamMeta.h:
+
+include/lib_common/StreamSection.h:
+
+include/lib_common/BufferPictureMeta.h:
+
+include/lib_common/StreamBuffer.h:
+
+lib_common/Utils.h:
+
+include/lib_common_enc/IpEncFourCC.h:
+
+lib_conv_yuv/lib_conv_yuv.h:
+
+lib_conv_yuv/ConvSrc.h:
+
+lib_conv_yuv/AL_NvxConvert.h:
+
+exe_encoder/sink_encoder.h:
+
+lib_app/timing.h:
+
+exe_encoder/QPGenerator.h:
+
+exe_encoder/ROIMngr.h:
+
+exe_encoder/EncCmdMngr.h:
+
+exe_encoder/ICommandsSender.h:
+
+exe_encoder/CommandsSender.h:
+
+exe_encoder/FileUtils.h:
+
+exe_encoder/sink_bitstream_writer.h:
+
+exe_encoder/sink_frame_writer.h:
+
+exe_encoder/sink_md5.h:
+
+exe_encoder/sink_repeater.h:
+
+lib_app/CommandLineParser.h:

@@ -1,0 +1,38 @@
+bin/lib_common_dec/RbspParser.c.o: lib_common_dec/RbspParser.c \
+ include/config.h lib_common/Utils.h include/lib_rtos/types.h \
+ include/lib_common/SliceConsts.h include/lib_common/BufCommon.h \
+ include/lib_common/MemDesc.h include/lib_common/Allocator.h \
+ include/lib_common/FourCC.h include/lib_common/OffsetYC.h \
+ lib_common_dec/DecBuffers.h lib_common/BufCommonInternal.h \
+ include/lib_common/BufferAPI.h include/lib_rtos/lib_rtos.h \
+ include/lib_common/BufferMeta.h lib_common_dec/RbspParser.h
+
+include/config.h:
+
+lib_common/Utils.h:
+
+include/lib_rtos/types.h:
+
+include/lib_common/SliceConsts.h:
+
+include/lib_common/BufCommon.h:
+
+include/lib_common/MemDesc.h:
+
+include/lib_common/Allocator.h:
+
+include/lib_common/FourCC.h:
+
+include/lib_common/OffsetYC.h:
+
+lib_common_dec/DecBuffers.h:
+
+lib_common/BufCommonInternal.h:
+
+include/lib_common/BufferAPI.h:
+
+include/lib_rtos/lib_rtos.h:
+
+include/lib_common/BufferMeta.h:
+
+lib_common_dec/RbspParser.h:

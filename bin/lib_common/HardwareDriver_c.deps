@@ -1,0 +1,11 @@
+bin/lib_common/HardwareDriver.c.o: lib_common/HardwareDriver.c \
+ include/config.h include/lib_rtos/lib_rtos.h include/lib_rtos/types.h \
+ lib_common/IDriver.h
+
+include/config.h:
+
+include/lib_rtos/lib_rtos.h:
+
+include/lib_rtos/types.h:
+
+lib_common/IDriver.h:

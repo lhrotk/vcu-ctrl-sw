@@ -1,0 +1,65 @@
+bin/exe_encoder/sink_md5.cpp.o: exe_encoder/sink_md5.cpp include/config.h \
+ lib_app/utils.h lib_app/console.h exe_encoder/sink_md5.h \
+ exe_encoder/sink.h include/lib_common/BufferAPI.h \
+ include/lib_rtos/types.h include/lib_rtos/lib_rtos.h \
+ include/lib_common/BufferMeta.h include/lib_common/Allocator.h \
+ exe_encoder/CfgParser.h lib_app/InputFiles.h include/lib_common/FourCC.h \
+ include/lib_common/SliceConsts.h include/lib_common_enc/Settings.h \
+ include/lib_common_enc/EncChanParam.h include/lib_common/VideoMode.h \
+ exe_encoder/MD5.h exe_encoder/CodecUtils.h \
+ include/lib_common_enc/EncBuffers.h include/lib_common/versions.h \
+ include/lib_common/BufCommon.h include/lib_common/MemDesc.h \
+ include/lib_common/OffsetYC.h include/lib_common/BufferSrcMeta.h \
+ include/lib_common/Pitches.h
+
+include/config.h:
+
+lib_app/utils.h:
+
+lib_app/console.h:
+
+exe_encoder/sink_md5.h:
+
+exe_encoder/sink.h:
+
+include/lib_common/BufferAPI.h:
+
+include/lib_rtos/types.h:
+
+include/lib_rtos/lib_rtos.h:
+
+include/lib_common/BufferMeta.h:
+
+include/lib_common/Allocator.h:
+
+exe_encoder/CfgParser.h:
+
+lib_app/InputFiles.h:
+
+include/lib_common/FourCC.h:
+
+include/lib_common/SliceConsts.h:
+
+include/lib_common_enc/Settings.h:
+
+include/lib_common_enc/EncChanParam.h:
+
+include/lib_common/VideoMode.h:
+
+exe_encoder/MD5.h:
+
+exe_encoder/CodecUtils.h:
+
+include/lib_common_enc/EncBuffers.h:
+
+include/lib_common/versions.h:
+
+include/lib_common/BufCommon.h:
+
+include/lib_common/MemDesc.h:
+
+include/lib_common/OffsetYC.h:
+
+include/lib_common/BufferSrcMeta.h:
+
+include/lib_common/Pitches.h:

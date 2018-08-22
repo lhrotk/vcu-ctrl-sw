@@ -1,0 +1,11 @@
+bin/lib_fpga/DevicePool.c.o: lib_fpga/DevicePool.c include/config.h \
+ include/lib_rtos/types.h include/lib_rtos/lib_rtos.h \
+ lib_fpga/DevicePool.h
+
+include/config.h:
+
+include/lib_rtos/types.h:
+
+include/lib_rtos/lib_rtos.h:
+
+lib_fpga/DevicePool.h:

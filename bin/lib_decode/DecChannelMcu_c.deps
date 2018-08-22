@@ -1,0 +1,58 @@
+bin/lib_decode/DecChannelMcu.c.o: lib_decode/DecChannelMcu.c \
+ include/config.h lib_decode/I_DecChannel.h include/lib_rtos/types.h \
+ include/lib_common/MemDesc.h include/lib_common/Allocator.h \
+ lib_common_dec/StartCodeParam.h lib_common_dec/DecChanParam.h \
+ include/lib_common/SliceConsts.h include/lib_common_dec/DecSynchro.h \
+ lib_common_dec/DecSliceParam.h lib_common_dec/DecBuffers.h \
+ lib_common/BufCommonInternal.h include/lib_common/BufCommon.h \
+ include/lib_common/FourCC.h include/lib_common/OffsetYC.h \
+ include/lib_common/BufferAPI.h include/lib_rtos/lib_rtos.h \
+ include/lib_common/BufferMeta.h lib_common_dec/DecPicParam.h \
+ lib_common/IDriver.h extra/include/allegro_ioctl_mcu_dec.h \
+ lib_common/List.h include/lib_common/Error.h
+
+include/config.h:
+
+lib_decode/I_DecChannel.h:
+
+include/lib_rtos/types.h:
+
+include/lib_common/MemDesc.h:
+
+include/lib_common/Allocator.h:
+
+lib_common_dec/StartCodeParam.h:
+
+lib_common_dec/DecChanParam.h:
+
+include/lib_common/SliceConsts.h:
+
+include/lib_common_dec/DecSynchro.h:
+
+lib_common_dec/DecSliceParam.h:
+
+lib_common_dec/DecBuffers.h:
+
+lib_common/BufCommonInternal.h:
+
+include/lib_common/BufCommon.h:
+
+include/lib_common/FourCC.h:
+
+include/lib_common/OffsetYC.h:
+
+include/lib_common/BufferAPI.h:
+
+include/lib_rtos/lib_rtos.h:
+
+include/lib_common/BufferMeta.h:
+
+lib_common_dec/DecPicParam.h:
+
+lib_common/IDriver.h:
+
+extra/include/allegro_ioctl_mcu_dec.h:
+
+lib_common/List.h:
+
+include/lib_common/Error.h:

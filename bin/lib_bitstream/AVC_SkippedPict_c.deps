@@ -1,0 +1,14 @@
+bin/lib_bitstream/AVC_SkippedPict.c.o: lib_bitstream/AVC_SkippedPict.c \
+ include/config.h lib_bitstream/AVC_SkippedPict.h \
+ include/lib_rtos/types.h lib_bitstream/SkippedPicture.h \
+ lib_bitstream/BitStreamLite.h
+
+include/config.h:
+
+lib_bitstream/AVC_SkippedPict.h:
+
+include/lib_rtos/types.h:
+
+lib_bitstream/SkippedPicture.h:
+
+lib_bitstream/BitStreamLite.h:

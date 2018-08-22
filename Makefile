@@ -6,7 +6,7 @@ CFLAGS+=-g0
 ##############################################################
 # cross build
 ##############################################################
-CROSS_COMPILE?=
+CROSS_COMPILE?=../toolchain_v205v3-master/aarch64-linux-gnu/bin/aarch64-linux-gnu-
 
 CXX:=$(CROSS_COMPILE)g++
 CC:=$(CROSS_COMPILE)gcc
