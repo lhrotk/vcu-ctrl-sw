@@ -61,7 +61,7 @@
    \return true on success, false on error
 *****************************************************************************/
 bool GenerateQPBuffer(AL_EQpCtrlMode eMode, int16_t iSliceQP, int16_t iMinQP, int16_t iMaxQP, int iLCUWidth, int iLCUHeight, AL_EProfile eProf, int iFrameID, uint8_t* pQPs, uint8_t* pSegs);
-
+bool GenerateQPBuffer(AL_EQpCtrlMode eMode, int16_t iSliceQP, int16_t iMinQP, int16_t iMaxQP, int iLCUWidth, int iLCUHeight, AL_EProfile eProf, uint8_t* pQPs, uint8_t* pSegs, uint8_t* QPTable, int tableSize);
 /*************************************************************************//*!
    \brief Fill QP part of the buffer pointed to by pQP with a QP for each
         Macroblock of the slice with roi information

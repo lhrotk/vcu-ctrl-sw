@@ -53,6 +53,16 @@ static bool PreprocessQP(uint8_t* pQPs, const AL_TEncSettings& Settings, const A
                           tChParam.eProfile, iFrameCountSent, pQPs + EP2_BUF_QP_BY_MB.Offset, pSegs);
 }
 
+static bool PreprocessQP(uint8_t* pQPs, const AL_TEncSettings& Settings, const AL_TEncChanParam& tChParam, uint8_t* QPTable, int tableSize)
+{
+  //may check the resolution in Settings and QPTable
+	uint8_t* pSegs = NULL;
+	return GenerateQPBuffer(Settings.eQpCtrlMode, tChParam.tRCParam.iInitialQP,
+	                          tChParam.tRCParam.iMinQP, tChParam.tRCParam.iMaxQP,
+	                          AL_GetWidthInLCU(tChParam), AL_GetHeightInLCU(tChParam),
+	                          tChParam.eProfile, pQPs + EP2_BUF_QP_BY_MB.Offset, pSegs, QPTable, tableSize);
+}
+
 class QPBuffers
 {
 public:
@@ -72,6 +82,12 @@ public:
   AL_TBuffer* getBuffer(int frameNum)
   {
     return getBuffer(frameNum, &bufpool, settings.tChParam[0]);
+  }
+
+  //override
+  AL_TBuffer* getBuffer(int frameNum, uint8_t* QPTable, int tableSize)
+  {
+      return getBuffer(frameNum, &bufpool, settings.tChParam[0], QPTable, tableSize);
   }
 
   void releaseBuffer(AL_TBuffer* buffer)
@@ -123,6 +139,27 @@ private:
 
     return pQpBuf;
   }
+
+  AL_TBuffer* getBuffer(int frameNum, BufPool* pBufPool, const AL_TEncChanParam& tChParam, uint8_t* QPTable, int tableSize)
+    {
+      if(!isExternQpTable)
+        return nullptr;
+
+      AL_TBuffer* pQpBuf = pBufPool->GetBuffer();
+      bool bRet = PreprocessQP(AL_Buffer_GetData(pQpBuf), settings, tChParam, QPTable, tableSize);
+
+      if(!bRet)
+        bRet = GenerateROIBuffer(pRoiCtx, sRoiFileName, AL_GetWidthInLCU(tChParam), AL_GetHeightInLCU(tChParam),
+                                 tChParam.eProfile, frameNum, AL_Buffer_GetData(pQpBuf) + EP2_BUF_QP_BY_MB.Offset);
+
+      if(!bRet)
+      {
+        releaseBuffer(pQpBuf);
+        return nullptr;
+      }
+
+      return pQpBuf;
+    }
 
 private:
   BufPool& bufpool;
@@ -233,8 +270,11 @@ struct EncoderSink : IFrameSink
     {
       EncCmd.Process(commandsSender.get(), m_picCount);
 
+      uint8_t* QPTable = (uint8_t*)malloc(8*1200);
 
-      QpBuf = qpBuffers.getBuffer(m_picCount);
+      memset(QPTable, 20, 600);
+
+      QpBuf = qpBuffers.getBuffer(m_picCount, QPTable, 1200);
     }
 
     shared_ptr<AL_TBuffer> QpBufShared(QpBuf, [&](AL_TBuffer* pBuf) { qpBuffers.releaseBuffer(pBuf); });
