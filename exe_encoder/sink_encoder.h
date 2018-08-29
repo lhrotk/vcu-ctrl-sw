@@ -274,7 +274,7 @@ struct EncoderSink : IFrameSink
 
       memset(QPTable, 20, 600);
 
-      QpBuf = qpBuffers.getBuffer(m_picCount, QPTable, 1200);
+      QpBuf = qpBuffers.getBuffer(m_picCount, QPTable, 1200);//3rd param: number of macroblocks, 1200 is for 480P video
     }
 
     shared_ptr<AL_TBuffer> QpBufShared(QpBuf, [&](AL_TBuffer* pBuf) { qpBuffers.releaseBuffer(pBuf); });
